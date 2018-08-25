@@ -3,7 +3,7 @@ version: '3.5'
 services:
   db:
     image: postgres:10.1-alpine
-    user: "${UID}:${GID}"
+    user: "${docker_uid}:${docker_gid}"
     volumes:
       - ./postgres_data:/var/lib/postgresql/data/
   web:

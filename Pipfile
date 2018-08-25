@@ -8,6 +8,7 @@ django = "*"
 django-choices = "*"
 "psycopg2-binary" = "*"
 django-extensions = "*"
+"django-tables2" = "*"
 
 [dev-packages]
 python-language-server = "*"
