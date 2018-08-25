@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # docker database
-./postgres_data/
+postgres_data/*

@@ -5,9 +5,12 @@ name = "pypi"
 
 [packages]
 django = "*"
-"psycopg2" = "*"
+django-choices = "*"
+"psycopg2-binary" = "*"
+django-extensions = "*"
 
 [dev-packages]
+python-language-server = "*"
 
 [requires]
 python_version = "3.6"

@@ -2,6 +2,10 @@
 
 Store your media data locally
 
+### Util Scripts
+There are some scripts to help starting/stopping the container with required env variables -
+just chmod +x `start_container.sh` and `stop_container.sh` to use them
+
 ### Starting
 ```
 docker-compose up -d --build

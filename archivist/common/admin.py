@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+
+from archivist.common.models import MediaItem, MediaInformation
+
+admin.site.register(MediaItem)
+admin.site.register(MediaInformation)
