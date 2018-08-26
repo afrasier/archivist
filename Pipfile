@@ -9,6 +9,8 @@ django-choices = "*"
 "psycopg2-binary" = "*"
 django-extensions = "*"
 "django-tables2" = "*"
+django-filter = "*"
+"django-bootstrap3" = "*"
 
 [dev-packages]
 python-language-server = "*"

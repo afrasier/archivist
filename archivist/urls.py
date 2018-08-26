@@ -20,5 +20,5 @@ import archivist.common.views as commonViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', commonViews.index, name='index'),
+    path('', commonViews.index, name='index')
 ]
